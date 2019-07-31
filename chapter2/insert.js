@@ -1,5 +1,5 @@
 function insertionSort (array) {
-  for (let index = 0; index < array.length - 1; index++) {
+  for (let index = 0; index < array.length; index++) {
     const element = array[index]
     let i = index - 1
     while (i > -1 && array[i] > element) {
