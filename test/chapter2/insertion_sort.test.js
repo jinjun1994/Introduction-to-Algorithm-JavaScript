@@ -1,6 +1,10 @@
+'use strict'
+
 import { insertionSort } from '../../chapter2/insert'
-const assert = require('assert')
+const assert = require('power-assert')
 
 describe('insertion_sort', () => {
-  assert(insertionSort)
+  it('insertion_sort', () => {
+    assert.equal(false, insertionSort)
+  })
 })
