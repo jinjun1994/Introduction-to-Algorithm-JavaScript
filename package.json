@@ -1,0 +1,37 @@
+{
+  "name": "Introduction-to-Algorithm-JavaScript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/**/*.js --require intelli-espower-loader"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinjun1994/Introduction-to-Algorithm-JavaScript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jinjun1994/Introduction-to-Algorithm-JavaScript/issues"
+  },
+  "homepage": "https://github.com/jinjun1994/Introduction-to-Algorithm-JavaScript#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-register": "^6.26.0",
+    "eslint": "^6.1.0",
+    "eslint-config-standard": "^13.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "intelli-espower-loader": "^1.0.1",
+    "mocha": "^6.2.0",
+    "power-assert": "^1.6.1"
+  },
+  "dependencies": {},
+  "directories": {
+    "test": "test/"
+  }
+}
