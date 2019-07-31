@@ -10,7 +10,13 @@ function insertionSort (array) {
   }
   return array
 }
+function chooseSort (array) {
+  for (let index = 0; index < array.length - 1; index++) {
+
+  }
+}
 
 export {
-  insertionSort
+  insertionSort,
+  chooseSort
 }
